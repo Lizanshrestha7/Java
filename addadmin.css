@@ -1,0 +1,217 @@
+.body {
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background-color: #F5F5F5;
+}
+
+.navbar {
+    background-color: #030303;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it span the full width of the viewport */
+    z-index: 1000; 
+    
+}
+
+.navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 30px;
+    background-color: black;
+    padding: 1px 8px;
+    border-radius: 5px;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 70px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 23.5px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    width: 315px; /* Adjust width as needed */
+    height: 100%; /* Take full height of the viewport */
+    background-color: #8371A1; /* Example color */
+    position: fixed;
+    top: 58px; /* Adjust based on the navbar height */
+    left: 10;
+}
+
+.vertical-nav {
+    position: fixed;
+    /* height: calc(100vh - 66px);  */
+    margin-top: 80px; /* Adjust spacing from the top */
+    font-size: 25px;
+    margin-left: 110px;
+}
+
+.vertical-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vertical-nav li {
+    margin-bottom: 10px; /* Adjust spacing between items */
+}
+
+.vertical-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.vertical-nav a:hover {
+        text-decoration: underline;/* Change color on hover */
+}
+
+.add-admin {
+    margin-top: 115px; /* Adjust based on the navbar height */
+    margin-left: 400px; /* Adjust based on the desired position */
+    color: Black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.admin-name {
+    margin-top: 0px; /* Adjust based on the navbar height */
+    margin-left: 400px; /* Adjust based on the desired position */
+    color: Black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* .textbox {
+    margin-top: 0px; 
+    margin-left: 410px; 
+}
+
+.textbox input[type="text"] {
+    width: 430px; 
+    height: 25px;
+    padding: 7px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+} */
+
+.admin-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.admin-name{
+    margin-left: 400px;
+}
+
+.textbox input[type="text"] {
+    width: 430px; 
+    height: 25px;
+    padding: 7px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+} 
+.admin-email {
+    margin-left: 60px;
+    margin-top: 9px;
+    font-size: 25px;
+
+}
+
+.textbox2 input[type="email"] {
+    width: 430px; 
+    height: 25px;
+    padding: 7px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+.position{
+    /* Remove position: fixed */
+    margin-top: 0px; /* Adjust based on the navbar height */
+    margin-left: 400px; /* Adjust based on the desired position */
+    color: Black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.textbox3 input[type="text"] {
+    margin-left: 0px;
+    width: 330px; 
+    height: 25px;
+    padding: 7px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+.contact{
+    /* Remove position: fixed */
+    margin-left: 160px;
+    margin-top: 9px;
+    font-size: 25px;
+}
+
+.textbox4 input[type="text"] {
+    margin-left: 0px;
+    width: 330px; 
+    height: 25px;
+    padding: 7px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+.admindetails2 {
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox {
+    margin-top:12px;
+    margin-left: 410px; 
+    margin-bottom: 0px; /* Add space between checkboxes */
+}
+
+
+.cando{
+    /* Remove position: fixed */
+    margin-left: 410px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.button{
+    /* Remove position: fixed */
+    margin-top: 20px; /* Adjust based on the navbar height */
+    margin-left: 400px; /* Adjust based on the desired position */
+    color: Black;
+    font-size: 25px;
+    padding: 20px 30px;
+    text-align: end;
+    font-size: 26px;
+    margin: 10px; /* Adjust margin as needed */
+    cursor: pointer;
+    border-radius: 5px;
+}
